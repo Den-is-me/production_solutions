@@ -6,7 +6,6 @@ ___
 ![image](https://github.com/Den-is-me/product_solutions/assets/107809488/63f6661b-1f4f-4cdb-ac29-637b9fc804ee)
  It uses:
 *  FileSensor to check the Flag.
-*  PostgresHook to select next date, create mask for files.
 *  BranchOperator to decide count of running for today and select mask for files.
 *  PostgresOperator, OracleOperator to create new tables and new files.
 *  SSHOperator, BashOperator to execute shell scripts to move files.
