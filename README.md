@@ -4,7 +4,8 @@
 ___
 **The [dag_generate_and_load_data.py](dag_generate_and_load_data.py) waits for the flag from DWH and generates three files in parallel for the CVM Business platform.**
 
-![image](https://github.com/Den-is-me/product_solutions/assets/107809488/5c75840b-cdc1-49b5-a840-888daff09284)
+![image](https://github.com/user-attachments/assets/7b32e445-e263-430b-86df-d3ef602be230)
+
  
  Tools:
 *  FileSensor to check the Flag.
