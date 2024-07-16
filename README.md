@@ -15,6 +15,6 @@ ___
 *  EmailOperator for alert.
 
 ___
-**The [dag_parce_upload_csv_files]() every 4 hours parses 5 servers for 3 technology in parallel, transform data by python, upload data into DWH, create KPI by using uploaded data and send KPI csv files to outdoor server.**
+**The [dag_parce_upload_csv_files_tech](dag_parce_upload_csv_files_tech.py) runs every 4 hours to parse data from 5 servers for 3 technologies (2G, 3G, 4G) in parallel. It transforms the data using Python, uploads the data into the DWH, creates KPIs using the uploaded data, and sends the KPI CSV files to an external server.**
 
 ![image](https://github.com/user-attachments/assets/d010d096-413e-419d-9c08-f45119488fcf)
